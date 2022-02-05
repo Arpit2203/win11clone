@@ -26,27 +26,31 @@ body{
 .recycle{
     margin-left: 10px;
 }
-.gc{
+.gc, .me, .rb{
     color: white;
-    margin-left: 23px;
+    margin-left: 20px;
     font-family: 'Segoe UI';
     outline: initial;
     font-size: 13px;
     margin-bottom: 5px;
 }
-.me{
-    color: white;
-    margin-left: 22px;
-    font-family: 'Segoe UI';
-    outline: initial;
-    font-size: 13px;
-}
+
 .rb{
-    color: white;
-    margin-left: 18px;
+    margin-left: 14px;
+}
+.text{
+    color: rgb(0, 0, 0);
     font-family: 'Segoe UI';
-    outline: initial;
-    font-size: 13px;
+    font-size: 30px;
+    bottom: 50px;
+    left: 500px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+#arrow{
+    width: 40px;
 }
 .taskbar{
     bottom: 0;
