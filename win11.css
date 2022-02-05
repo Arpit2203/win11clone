@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+.icons{
+    display: inline-table;
+    position: absolute;
+    max-width: 74px;
+    left: 0;
+    top: 50px;
+    margin-bottom: 5px;
+}
+.chrome{
+    margin-left: -4px;
+}
+.edge{
+    margin-left: 15px;
+}
+.recycle{
+    margin-left: 10px;
+}
+.gc{
+    color: white;
+    margin-left: 23px;
+    font-family: 'Segoe UI';
+    outline: initial;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.me{
+    color: white;
+    margin-left: 22px;
+    font-family: 'Segoe UI';
+    outline: initial;
+    font-size: 13px;
+}
+.rb{
+    color: white;
+    margin-left: 18px;
+    font-family: 'Segoe UI';
+    outline: initial;
+    font-size: 13px;
+}
+.taskbar{
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 110;
+    background-color: #f3f3f3;
+}
+
+.startmenu{
+    bottom: -700px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    transition: all 0.9s ease-in-out;
+}
+
+.m{
+    position: absolute;
+    size: 60%;
+    height: 100%;
+    margin-right: 320px;
+    
+}
+
+.m:hover{
+    height: 50px;
+    width: 50px;
+}
+
+.startmenu img{
+    border-radius: 8px;
+}
+
+.right{
+    justify-content: flex-end;
+    right: 0;
+    position: absolute;
+    height: 85%;
+    margin: 6px 0;
+}
+
+label{
+    color: white;
+    bottom: 0;
+    border: 2px solid white;
+    padding: 5px
+}
